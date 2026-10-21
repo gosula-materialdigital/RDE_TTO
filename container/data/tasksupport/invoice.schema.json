@@ -1,0 +1,487 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.org/rde/tensile-test-invoice-schema.json",
+    "title": "Tensile Test Input Schema",
+    "description": "Schema for data available before the tensile test process (specimen geometry and machine settings)",
+    "type": "object",
+    "required": [
+        "custom"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
+            },
+            "required": [
+                "process_id"
+            ],
+            "properties": {
+                "tensiletestpiece_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片名",
+                        "en": "tensiletestpiece_name"
+                    },
+                    "description": "Human readable name of the specimen"
+                },
+                "tensiletestpiece_id": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片ID",
+                        "en": "tensiletestpiece_id"
+                    }
+                },
+
+                "materialdescription": {
+                    "type": "string",
+                    "label": {
+                        "ja": "材料表記",
+                        "en": "materialdescription"
+                    }
+                },
+
+                "tensiletestpiece_type": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片形状",
+                        "en": "tensiletestpiece_type"
+                    },
+                    "enum": ["Round Tensile Specimen", "Flat Tensile Specimen", "Other"]
+                },
+                "original_diameter": {
+                    "type": "number",
+                    "label": {
+                        "ja": "平行部直径",
+                        "en": "original_diameter"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "original_gauge_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "標点距離",
+                        "en": "original_gauge_length"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "parallel_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "平行部長さ",
+                        "en": "parallel_length"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "original_cross_sectional_area_of_the_parallel_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "初期断面積",
+                        "en": "original_cross_sectional_area_of_the_parallel_length"
+                    },
+                    "options": { "unit": "mm²" }
+                },
+                "crosshead_separation_rate": {
+                    "type": "number",
+                    "label": {
+                        "ja": "クロスヘッド速度",
+                        "en": "crosshead_separation_rate"
+                    },
+                    "options": { "unit": "mm/s" }
+                },
+                "temperature": {
+                    "type": "number",
+                    "label": {
+                        "ja": "試験温度",
+                        "en": "temperature"
+                    },
+                    "options": { "unit": "DEG_C" }
+                },
+                "tensiletestmachine_type": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機型式",
+                        "en": "tensiletestmachine_type"
+                    },
+                    "examples": ["INSTRON 8852TT"]
+                },
+                "tensiletestmethod_standard": {
+                    "type": "string",
+                    "label": {
+                        "ja": "規格",
+                        "en": "tensiletestmethod_standard"
+                    },
+                    "default": "DIN EN ISO 6892-1"
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date",
+                    "label": {
+                        "ja": "試験日",
+                        "en": "date"
+                    }
+                },
+                "ht_batch": {
+                    "type": "string",
+                    "label": {
+                        "ja": "熱処理バッチ",
+                        "en": "Heat Treatment Batch"
+                    }
+                },
+
+                "tensiletestpiece_shape": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片形状",
+                        "en": "tensiletestpiece_shape"
+                    }
+                },
+                "operator": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験実施者",
+                        "en": "Operator"
+                    }
+                },
+
+                "tensiletestmachine_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機名",
+                        "en": "tensiletestmachine_name"
+                    }
+                },
+                "tensiletestmachine_manufacturer_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機製造元",
+                        "en": "tensiletestmachine_manufacturer_name"
+                    }
+                },
+
+                "tensiletestmachine_serialnumber": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機製造番号",
+                        "en": "tensiletestmachine_serialnumber"
+                    }
+                },
+                "tensiletestmachine_standard": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機規格",
+                        "en": "tensiletestmachine_standard"
+                    }
+                },
+                "extensometer_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "伸び計名",
+                        "en": "extensometer_name"
+                    }
+                },
+                "extensometer_serialnumber": {
+                    "type": "string",
+                    "label": {
+                        "ja": "伸び計製造番号",
+                        "en": "extensometer_serialnumber"
+                    }
+                },
+                "extensometer_standard": {
+                    "type": "string",
+                    "label": {
+                        "ja": "伸び計規格",
+                        "en": "extensometer_standard"
+                    }
+                },
+                "micrometergauge_manufacturer_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "マイクロメータ製造元",
+                        "en": "micrometergauge_manufacturer_name"
+                    }
+                },
+                "caliper_manufacturer_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "ノギス製造元",
+                        "en": "caliper_manufacturer_name"
+                    }
+                },
+                "caliper_serialnumber": {
+                    "type": "string",
+                    "label": {
+                        "ja": "ノギス製造番号",
+                        "en": "caliper_serialnumber"
+                    }
+                },
+                "strain_rate": {
+                    "type": "number",
+                    "label": {
+                        "ja": "ひずみ速度",
+                        "en": "strain_rate"
+                    }
+                },
+                "transition_point": {
+                    "type": "number",
+                    "label": {
+                        "ja": "制御切替点",
+                        "en": "transition_point"
+                    }
+                },
+                "extensometer_gauge_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "伸び計標点距離",
+                        "en": "extensometer_gauge_length"
+                    }
+                },
+                "load_cell_max_force": {
+                    "type": "number",
+                    "label": {
+                        "ja": "ロードセル容量",
+                        "en": "load_cell_max_force"
+                    }
+                },
+                "project": {
+                    "type": "string",
+                    "label": {
+                        "ja": "プロジェクト",
+                        "en": "Project"
+                    }
+                },
+
+                "tensiletestpiece_rollingdirection": {
+                    "type": "string",
+                    "label": {
+                        "ja": "圧延方向",
+                        "en": "tensiletestpiece_rollingdirection"
+                    }
+                },
+                "address": {
+                    "type": "string",
+                    "label": {
+                        "ja": "組織所在地",
+                        "en": "address"
+                    }
+                },
+                "institute": {
+                    "type": "string",
+                    "label": {
+                        "ja": "機関",
+                        "en": "institute"
+                    }
+                },
+
+                "note": {
+                    "type": "string",
+                    "label": {
+                        "ja": "備考",
+                        "en": "Note"
+                    }
+                },
+                "original_thickness_1": {
+                    "type": "number",
+                    "label": {
+                        "ja": "厚さ/直径 測定値1",
+                        "en": "original_thickness_1"
+                    }
+                },
+                "original_thickness_2": {
+                    "type": "number",
+                    "label": {
+                        "ja": "厚さ/直径 測定値2",
+                        "en": "original_thickness_2"
+                    }
+                },
+                "original_thickness_3": {
+                    "type": "number",
+                    "label": {
+                        "ja": "厚さ/直径 測定値3",
+                        "en": "original_thickness_3"
+                    }
+                },
+                "original_width_1": {
+                    "type": "number",
+                    "label": {
+                        "ja": "幅 測定値1",
+                        "en": "original_width_1"
+                    }
+                },
+                "original_width_2": {
+                    "type": "number",
+                    "label": {
+                        "ja": "幅 測定値2",
+                        "en": "original_width_1"
+                    }
+                },
+                "original_width_3": {
+                    "type": "number",
+                    "label": {
+                        "ja": "幅 測定値3",
+                        "en": "original_width_3"
+                    }
+                },
+                "cross_section_area_1": {
+                    "type": "number",
+                    "label": {
+                        "ja": "断面積 計算値1",
+                        "en": "cross_section_area_1"
+                    }
+                },
+                "cross_section_area_2": {
+                    "type": "number",
+                    "label": {
+                        "ja": "断面積 計算値2",
+                        "en": "cross_section_area_2"
+                    }
+                },
+                "cross_section_area_3": {
+                    "type": "number",
+                    "label": {
+                        "ja": "断面積 計算値3",
+                        "en": "cross_section_area_3"
+                    }
+                },
+
+                "proof_strength_plastic_extension_rp02": {
+                    "type": "number",
+                    "label": {
+                        "ja": "耐力 Rp0.2",
+                        "en": "proof_strength_plastic_extension_rp02"
+                    }
+                },
+                "upper_yield_strength": {
+                    "type": "number",
+                    "label": {
+                        "ja": "上降伏強度 ReH",
+                        "en": "upper_yield_strength"
+                    }
+                },
+                "maximum_force": {
+                    "type": "number",
+                    "label": {
+                        "ja": "最大試験力 Fm",
+                        "en": "maximum_force"
+                    }
+                },
+                "tensile_strength": {
+                    "type": "number",
+                    "label": {
+                        "ja": "引張強さ Rm",
+                        "en": "tensile_strength"
+                    }
+                },
+                "elastic_modulus": {
+                    "type": "number",
+                    "label": {
+                        "ja": "縦弾性係数 E",
+                        "en": "elastic_modulus"
+                    }
+                },
+
+                "final_gauge_length_after_fracture": {
+                    "type": "number",
+                    "label": {
+                        "ja": "破断後標点距離 Lu",
+                        "en": "final_gauge_length_after_fracture"
+                    }
+                },
+                "percentage_elongation_after_fracture": {
+                    "type": "number",
+                    "label": {
+                        "ja": "破断伸び A",
+                        "en": "percentage_elongation_after_fracture"
+                    }
+                },
+                "thickness_after_fracture": {
+                    "type": "number",
+                    "label": {
+                        "ja": "破断後厚さ/直径 au",
+                        "en": "thickness_after_fracture"
+                    }
+                },
+                "width_after_fracture": {
+                    "type": "number",
+                    "label": {
+                        "ja": "破断後幅 bu",
+                        "en": "width_after_fracture"
+                    }
+                },
+                "minimum_cross_sectional_area_after_fracture": {
+                    "type": "number",
+                    "label": {
+                        "ja": "破断後最小断面積 Su",
+                        "en": "minimum_cross_sectional_area_after_fracture"
+                    }
+                },
+                "percentage_reduction_of_area": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "percentage_reduction_of_area"
+                    }
+                },
+
+                "process_id": {
+                    "type": "string",
+                    "label": {
+                        "ja": "プロセスID",
+                        "en": "process_id"
+                    }
+                },
+
+                "force_at_proof_strength_plastic_extension_f02": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "force_at_proof_strength_plastic_extension_f02"
+                    }
+                },
+
+                "force_at_upper_yield_strength": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "force_at_upper_yield_strength"
+                    }
+                },
+
+                "lower_yield_strength": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "lower_yield_strength"
+                    }
+                },
+
+                "diameter_after_fracture_1": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "diameter_after_fracture_1"
+                    }
+                },
+
+                "diameter_after_fracture_2": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "diameter_after_fracture_1"
+                    }
+                },
+
+                "force_at_lower_yield_strength": {
+                    "type": "number",
+                    "label": {
+                        "ja": "絞り Z",
+                        "en": "force_at_lower_yield_strength"
+                    }
+                }
+
+
+            }
+        }
+    }
+}

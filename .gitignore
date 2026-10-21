@@ -1,0 +1,6 @@
+__pycache__
+.rde-tto/
+.venv/*
+.env
+*.log
+job.failed

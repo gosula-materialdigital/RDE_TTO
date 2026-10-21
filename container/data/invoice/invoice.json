@@ -1,0 +1,21 @@
+{
+    "datasetId": "00000000-0000-0000-0000-000000000000",
+    "basic": {
+        "dateSubmitted": "2026-05-08",
+        "dataOwnerId": "00000000000000000000000000000000000000000000000000000000",
+        "dataName": "Local Development Test",
+        "instrumentId": "00000000-0000-0000-0000-000000000000",
+        "experimentId": "test-run-001",
+        "description": "Testing tensile test processing logic"
+    },
+    "custom": {
+        "process_id": "pmdao-tto-tt-S355-1",
+        "testpiece": "Zx1",
+        "a1": 5.993,
+        "a2": 5.987,
+        "a3": 5.992,
+        "b1": 20.136,
+        "b2": 20.145,
+        "b3": 20.131
+    }
+}

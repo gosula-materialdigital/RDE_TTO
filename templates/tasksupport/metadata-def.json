@@ -1,0 +1,215 @@
+{
+    "specimen_name": {
+        "name": {
+            "ja": "試験片名",
+            "en": "Specimen Name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Identifier or name assigned to the specimen"
+    },
+    "specimen_id": {
+        "name": {
+            "ja": "試験片ID",
+            "en": "Specimen ID"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Unique record ID for the specimen"
+    },
+    "material": {
+        "name": {
+            "ja": "材料",
+            "en": "Material"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Material designation (e.g., 42CrMoS4)"
+    },
+    "specimen_type": {
+        "name": {
+            "ja": "試験片形状",
+            "en": "Specimen Type"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "The geometric category of the specimen"
+    },
+    "gauge_diameter": {
+        "name": {
+            "ja": "平行部直径",
+            "en": "Gauge Diameter"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm",
+        "description": "Diameter of the gauge section"
+    },
+    "gauge_length": {
+        "name": {
+            "ja": "標点距離",
+            "en": "Gauge Length"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm",
+        "description": "Initial length for strain measurement"
+    },
+    "original_cross_section": {
+        "name": {
+            "ja": "初期断面積",
+            "en": "Original Cross-section"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm²",
+        "description": "Calculated initial cross-sectional area"
+    },
+    "yield_stress_02": {
+        "name": {
+            "ja": "0.2%耐力",
+            "en": "Yield Stress (0.2%)"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "MPa",
+        "description": "Yield stress at 0.2% plastic strain offset"
+    },
+    "uts": {
+        "name": {
+            "ja": "引張強さ",
+            "en": "Ultimate Tensile Strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "MPa",
+        "description": "Maximum engineering stress"
+    },
+    "uniform_elongation": {
+        "name": {
+            "ja": "一様伸び",
+            "en": "Uniform Elongation"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "%",
+        "description": "Elongation at the point of maximum load"
+    },
+    "elongation_after_fracture": {
+        "name": {
+            "ja": "破断伸び",
+            "en": "Elongation after Fracture"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "%",
+        "description": "Permanent increase in length after rupture"
+    },
+    "reduction_of_area": {
+        "name": {
+            "ja": "絞り",
+            "en": "Reduction of Area"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "%",
+        "description": "Ratio of area change after fracture"
+    },
+    "elastic_modulus": {
+        "name": {
+            "ja": "弾性率",
+            "en": "Elastic Modulus"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "MPa",
+        "description": "Slope of the linear-elastic region"
+    },
+    "crosshead_speed": {
+        "name": {
+            "ja": "クロスヘッド速度",
+            "en": "Crosshead Speed"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "mm/s",
+        "description": "Separation speed of the machine grips"
+    },
+    "strain_rate": {
+        "name": {
+            "ja": "ひずみ速度",
+            "en": "Strain Rate"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "unit": "s-1",
+        "description": "Rate of deformation relative to time"
+    },
+    "test_temperature": {
+        "name": {
+            "ja": "試験温度",
+            "en": "Test Temperature"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "unit": "Cel",
+        "description": "Environmental temperature during the test"
+    },
+    "machine_type": {
+        "name": {
+            "ja": "試験機型式",
+            "en": "Machine Type"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "The specific testing equipment used"
+    },
+    "standard": {
+        "name": {
+            "ja": "規格",
+            "en": "Standard"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Testing standard followed (e.g. ISO 6892-1)"
+    },
+    "test_date": {
+        "name": {
+            "ja": "試験日",
+            "en": "Test Date"
+        },
+        "schema": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "description": "Timestamp of the experiment"
+    },
+    "ht_batch": {
+        "name": {
+            "ja": "熱処理バッチ",
+            "en": "Heat Treatment Batch"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Reference for the material's heat treatment lot"
+    }
+}

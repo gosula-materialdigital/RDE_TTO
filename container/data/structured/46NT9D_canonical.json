@@ -1,0 +1,1403 @@
+[
+    {
+        "Original Diameter": {
+            "hasIdentifier": "46NT9D_originaldiameter",
+            "label": "46NT9D_originaldiameter",
+            "quality of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_originaldiameter_measurement_datum",
+            "label": "46NT9D_originaldiameter_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Original Diameter": {
+                        "hasIdentifier": "46NT9D_originaldiameter",
+                        "label": "46NT9D_originaldiameter"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_originaldiameter_valuespecification",
+                        "label": "46NT9D_originaldiameter_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM",
+                                    "label": "unit:MilliM"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Original Diameter": {
+                                    "hasIdentifier": "46NT9D_originaldiameter",
+                                    "label": "46NT9D_originaldiameter"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 5.001
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Original Gauge Length": {
+            "hasIdentifier": "46NT9D_originalguagelength",
+            "label": "46NT9D_originalguagelength",
+            "quality of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_originalguagelength_measurement_datum",
+            "label": "46NT9D_originalguagelength_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Original Gauge Length": {
+                        "hasIdentifier": "46NT9D_originalguagelength",
+                        "label": "46NT9D_originalguagelength"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_originalguagelength_valuespecification",
+                        "label": "46NT9D_originalguagelength_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM",
+                                    "label": "unit:MilliM"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Original Gauge Length": {
+                                    "hasIdentifier": "46NT9D_originalguagelength",
+                                    "label": "46NT9D_originalguagelength"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 25.0
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Parallel Length": {
+            "hasIdentifier": "46NT9D_parallellength",
+            "label": "46NT9D_parallellength",
+            "quality of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_parallellength_measurement_datum",
+            "label": "46NT9D_parallellength_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Parallel Length": {
+                        "hasIdentifier": "46NT9D_parallellength",
+                        "label": "46NT9D_parallellength"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_parallellength_valuespecification",
+                        "label": "46NT9D_parallellength_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM",
+                                    "label": "unit:MilliM"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Parallel Length": {
+                                    "hasIdentifier": "46NT9D_parallellength",
+                                    "label": "46NT9D_parallellength"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 30.0
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Original Cross-Sectional Area Of The Parallel Length": {
+            "hasIdentifier": "46NT9D_originalcross-sectionalareaoftheparallellength",
+            "label": "46NT9D_originalcross-sectionalareaoftheparallellength",
+            "quality of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_originalcross-sectionalareaoftheparallellength_measurement_datum",
+            "label": "46NT9D_originalcross-sectionalareaoftheparallellength_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Original Cross-Sectional Area Of The Parallel Length": {
+                        "hasIdentifier": "46NT9D_originalcross-sectionalareaoftheparallellength",
+                        "label": "46NT9D_originalcross-sectionalareaoftheparallellength"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_originalcross-sectionalareaoftheparallellength_valuespecification",
+                        "label": "46NT9D_originalcross-sectionalareaoftheparallellength_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM2",
+                                    "label": "unit:MilliM2"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Original Cross-Sectional Area Of The Parallel Length": {
+                                    "hasIdentifier": "46NT9D_originalcross-sectionalareaoftheparallellength",
+                                    "label": "46NT9D_originalcross-sectionalareaoftheparallellength"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 19.642808851968347
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Dimension Measuring Process": {
+                        "hasIdentifier": "46NT9D_dimensionmeasuringprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Temperature": {
+            "hasIdentifier": "46NT9D_temperature",
+            "label": "46NT9D_temperature",
+            "quality of": [
+                {
+                    "Object": {
+                        "hasIdentifier": "46NT9D_air"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Dynamic Mechanical Analysis Process": {
+                        "hasIdentifier": "46NT9D_dynamicmechanicalanalysisprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_temperature_measurement_datum",
+            "label": "46NT9D_temperature_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Temperature": {
+                        "hasIdentifier": "46NT9D_temperature",
+                        "label": "46NT9D_temperature"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_temperature_valuespecification",
+                        "label": "46NT9D_temperature_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:DEG_C",
+                                    "label": "unit:DEG_C"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Temperature": {
+                                    "hasIdentifier": "46NT9D_temperature",
+                                    "label": "46NT9D_temperature"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 23.0
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Dynamic Mechanical Analysis Process": {
+                        "hasIdentifier": "46NT9D_dynamicmechanicalanalysisprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Minimum Cross-Sectional Area After Fracture": {
+            "hasIdentifier": "46NT9D_minimumcross-sectionalareaafterfracture",
+            "label": "46NT9D_minimumcross-sectionalareaafterfracture",
+            "characteristic of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "realized in": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_minimumcross-sectionalareaafterfracture_measurement_datum",
+            "label": "46NT9D_minimumcross-sectionalareaafterfracture_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Minimum Cross-Sectional Area After Fracture": {
+                        "hasIdentifier": "46NT9D_minimumcross-sectionalareaafterfracture",
+                        "label": "46NT9D_minimumcross-sectionalareaafterfracture"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_minimumcross-sectionalareaafterfracture_valuespecification",
+                        "label": "46NT9D_minimumcross-sectionalareaafterfracture_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM2",
+                                    "label": "unit:MilliM2"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Minimum Cross-Sectional Area After Fracture": {
+                                    "hasIdentifier": "46NT9D_minimumcross-sectionalareaafterfracture",
+                                    "label": "46NT9D_minimumcross-sectionalareaafterfracture"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 9.275184939732934
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Proof Strength Plastic Extension Rp02": {
+            "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp02",
+            "label": "46NT9D_proofstrengthplasticextensionrp02",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp02_measurement_datum",
+            "label": "46NT9D_proofstrengthplasticextensionrp02_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Proof Strength Plastic Extension Rp02": {
+                        "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp02",
+                        "label": "46NT9D_proofstrengthplasticextensionrp02"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp02_valuespecification",
+                        "label": "46NT9D_proofstrengthplasticextensionrp02_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MegaPa",
+                                    "label": "unit:MegaPa"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Proof Strength Plastic Extension Rp02": {
+                                    "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp02",
+                                    "label": "46NT9D_proofstrengthplasticextensionrp02"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 1090.0613982135765
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "proof strength plastic extension": {
+            "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp1",
+            "label": "46NT9D_proofstrengthplasticextensionrp1",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp1_measurement_datum",
+            "label": "46NT9D_proofstrengthplasticextensionrp1_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "proof strength plastic extension": {
+                        "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp1",
+                        "label": "46NT9D_proofstrengthplasticextensionrp1"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp1_valuespecification",
+                        "label": "46NT9D_proofstrengthplasticextensionrp1_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MegaPa",
+                                    "label": "unit:MegaPa"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "proof strength plastic extension": {
+                                    "hasIdentifier": "46NT9D_proofstrengthplasticextensionrp1",
+                                    "label": "46NT9D_proofstrengthplasticextensionrp1"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 1122.0946918175598
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Tensile Strength": {
+            "hasIdentifier": "46NT9D_tensilestrength",
+            "label": "46NT9D_tensilestrength",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_tensilestrength_measurement_datum",
+            "label": "46NT9D_tensilestrength_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Tensile Strength": {
+                        "hasIdentifier": "46NT9D_tensilestrength",
+                        "label": "46NT9D_tensilestrength"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_tensilestrength_valuespecification",
+                        "label": "46NT9D_tensilestrength_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MegaPa",
+                                    "label": "unit:MegaPa"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Tensile Strength": {
+                                    "hasIdentifier": "46NT9D_tensilestrength",
+                                    "label": "46NT9D_tensilestrength"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 1175.3665259378865
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Percentage Elongation": {
+            "hasIdentifier": "46NT9D_percentageelongation",
+            "label": "46NT9D_percentageelongation",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_percentageelongation_measurement_datum",
+            "label": "46NT9D_percentageelongation_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Percentage Elongation": {
+                        "hasIdentifier": "46NT9D_percentageelongation",
+                        "label": "46NT9D_percentageelongation"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_percentageelongation_valuespecification",
+                        "label": "46NT9D_percentageelongation_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:PERCENT",
+                                    "label": "unit:PERCENT"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Percentage Elongation": {
+                                    "hasIdentifier": "46NT9D_percentageelongation",
+                                    "label": "46NT9D_percentageelongation"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 5.043896798368011
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Percentage Elongation After Fracture": {
+            "hasIdentifier": "46NT9D_percentageelongationafterfracture",
+            "label": "46NT9D_percentageelongationafterfracture",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_percentageelongationafterfracture_measurement_datum",
+            "label": "46NT9D_percentageelongationafterfracture_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Percentage Elongation After Fracture": {
+                        "hasIdentifier": "46NT9D_percentageelongationafterfracture",
+                        "label": "46NT9D_percentageelongationafterfracture"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_percentageelongationafterfracture_valuespecification",
+                        "label": "46NT9D_percentageelongationafterfracture_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:PERCENT",
+                                    "label": "unit:PERCENT"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Percentage Elongation After Fracture": {
+                                    "hasIdentifier": "46NT9D_percentageelongationafterfracture",
+                                    "label": "46NT9D_percentageelongationafterfracture"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 14.491399342237472
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Percentage Reduction Of Area": {
+            "hasIdentifier": "46NT9D_percentagereductionofarea",
+            "label": "46NT9D_percentagereductionofarea",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_percentagereductionofarea_measurement_datum",
+            "label": "46NT9D_percentagereductionofarea_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Percentage Reduction Of Area": {
+                        "hasIdentifier": "46NT9D_percentagereductionofarea",
+                        "label": "46NT9D_percentagereductionofarea"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_percentagereductionofarea_valuespecification",
+                        "label": "46NT9D_percentagereductionofarea_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:PERCENT",
+                                    "label": "unit:PERCENT"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Percentage Reduction Of Area": {
+                                    "hasIdentifier": "46NT9D_percentagereductionofarea",
+                                    "label": "46NT9D_percentagereductionofarea"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 52.78076058454577
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Slope Of The Elastic Part": {
+            "hasIdentifier": "46NT9D_slopeoftheelasticpart",
+            "label": "46NT9D_slopeoftheelasticpart",
+            "disposition of": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "characteristic measured by assay": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_slopeoftheelasticpart_measurement_datum",
+            "label": "46NT9D_slopeoftheelasticpart_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Slope Of The Elastic Part": {
+                        "hasIdentifier": "46NT9D_slopeoftheelasticpart",
+                        "label": "46NT9D_slopeoftheelasticpart"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_slopeoftheelasticpart_valuespecification",
+                        "label": "46NT9D_slopeoftheelasticpart_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MegaPa",
+                                    "label": "unit:MegaPa"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Slope Of The Elastic Part": {
+                                    "hasIdentifier": "46NT9D_slopeoftheelasticpart",
+                                    "label": "46NT9D_slopeoftheelasticpart"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 207076.24253279125
+                    }
+                }
+            ],
+            "is specified output of": [
+                {
+                    "Tensile Testing Process": {
+                        "hasIdentifier": "46NT9D_tensiletestingprocess"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Crosshead Separation Rate": {
+            "hasIdentifier": "46NT9D_crossheadseparationrate",
+            "label": "46NT9D_crossheadseparationrate"
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_crossheadseparationrate_measurement_datum",
+            "label": "46NT9D_crossheadseparationrate_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Crosshead Separation Rate": {
+                        "hasIdentifier": "46NT9D_crossheadseparationrate",
+                        "label": "46NT9D_crossheadseparationrate"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_crossheadseparationrate_valuespecification",
+                        "label": "46NT9D_crossheadseparationrate_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:MilliM-PER-SEC",
+                                    "label": "unit:MilliM-PER-SEC"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Crosshead Separation Rate": {
+                                    "hasIdentifier": "46NT9D_crossheadseparationrate",
+                                    "label": "46NT9D_crossheadseparationrate"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 0.03007181246249116
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Strain Rate": {
+            "hasIdentifier": "46NT9D_strainrate",
+            "label": "46NT9D_strainrate"
+        }
+    },
+    {
+        "Measurement Datum": {
+            "hasIdentifier": "46NT9D_strainrate_measurement_datum",
+            "label": "46NT9D_strainrate_measurement_datum",
+            "is quality measurement of": [
+                {
+                    "Strain Rate": {
+                        "hasIdentifier": "46NT9D_strainrate",
+                        "label": "46NT9D_strainrate"
+                    }
+                }
+            ],
+            "has value specification": [
+                {
+                    "Scalar Value Specification": {
+                        "hasIdentifier": "46NT9D_strainrate_valuespecification",
+                        "label": "46NT9D_strainrate_valuespecification",
+                        "has measurement unit label": [
+                            {
+                                "Measurement Unit Label": {
+                                    "hasIdentifier": "unit:PER-SEC",
+                                    "label": "unit:PER-SEC"
+                                }
+                            }
+                        ],
+                        "specifies value of": [
+                            {
+                                "Strain Rate": {
+                                    "hasIdentifier": "46NT9D_strainrate",
+                                    "label": "46NT9D_strainrate"
+                                }
+                            }
+                        ],
+                        "has specified numeric value": 0.001002393748749053
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "46NT9D_tensiletestpiece_name",
+            "label": "46NT9D_tensiletestpiece_name",
+            "has value": "AWA_2_03_Rz",
+            "denotes": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece",
+                        "label": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "46NT9D_tensiletestpiece_id",
+            "label": "46NT9D_tensiletestpiece_id",
+            "has value": "46NT9D",
+            "denotes": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece",
+                        "label": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Material Specification": {
+            "hasIdentifier": "46NT9D_materialdescription",
+            "label": "46NT9D_materialdescription",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasidentifier": "46NT9D_materialdescription_identifier",
+                        "label": "46NT9D_materialdescription_identifier",
+                        "has value": "42CrMoS4"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Material Specification": {
+            "hasIdentifier": "46NT9D_tensiletestpiece_type",
+            "label": "46NT9D_tensiletestpiece_type",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasidentifier": "46NT9D_tensiletestpiece_type_identifier",
+                        "label": "46NT9D_tensiletestpiece_type_identifier",
+                        "has value": "Round tensile Specimen"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Device Specification": {
+            "hasIdentifier": "46NT9D_tensiletestmachine_type",
+            "label": "46NT9D_tensiletestmachine_type",
+            "denoted by": [
+                {
+                    "Identifier": {
+                        "hasidentifier": "46NT9D_tensiletestmachine_type_identifier",
+                        "label": "46NT9D_tensiletestmachine_type_identifier",
+                        "has value": "INSTRON 8852TT"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Identifier": {
+            "hasIdentifier": "46NT9D_tensiletestmethod_standard",
+            "label": "46NT9D_tensiletestmethod_standard",
+            "has value": "DIN EN ISO 6892-1",
+            "denotes": [
+                {
+                    "Tensile Test Method": {
+                        "hasIdentifier": "46NT9D_tensiletestmethod",
+                        "label": "46NT9D_tensiletestmethod"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Tensile Testing Process": {
+            "hasIdentifier": "46NT9D_tensiletestingprocess",
+            "label": "46NT9D_tensiletestingprocess",
+            "has participant": [
+                {
+                    "Tensile Testing Machine": {
+                        "hasIdentifier": "46NT9D_tensiletestingmachine",
+                        "label": "46NT9D_tensiletestingmachine"
+                    }
+                },
+                {
+                    "Extensometer": {
+                        "hasIdentifier": "46NT9D_extensometer",
+                        "label": "46NT9D_extensometer"
+                    }
+                },
+                {
+                    "Micrometer Gauge": {
+                        "hasIdentifier": "46NT9D_micrometergauge",
+                        "label": "46NT9D_micrometergauge"
+                    }
+                },
+                {
+                    "Caliper": {
+                        "hasIdentifier": "46NT9D_caliper",
+                        "label": "46NT9D_caliper"
+                    }
+                },
+                {
+                    "Load Cell": {
+                        "hasIdentifier": "46NT9D_loadcell",
+                        "label": "46NT9D_loadcell"
+                    }
+                },
+                {
+                    "Organization": {
+                        "hasIdentifier": "46NT9D_organization",
+                        "label": "46NT9D_organization"
+                    }
+                },
+                {
+                    "Homo Sapiens": {
+                        "hasIdentifier": "46NT9D_homosapiens",
+                        "label": "46NT9D_homosapiens"
+                    }
+                },
+                {
+                    "Object": {
+                        "hasIdentifier": "46NT9D_air",
+                        "label": "46NT9D_air"
+                    }
+                }
+            ],
+            "has specified input": [
+                {
+                    "Tensile Testpiece": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece",
+                        "label": "46NT9D_tensiletestpiece"
+                    }
+                }
+            ],
+            "realizes": [
+                {
+                    "Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiecerole"
+                    }
+                },
+                {
+                    "Broken Tested Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiece_1_aftertest_role"
+                    }
+                },
+                {
+                    "Broken Tested Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiece_2_aftertest_role"
+                    }
+                },
+                {
+                    "Role": {
+                        "hasIdentifier": "46NT9D_operator_role",
+                        "label": "46NT9D_operator_role",
+                        "role of": [
+                            {
+                                "Homo Sapiens": {
+                                    "hasIdentifier": "46NT9D_homosapiens",
+                                    "label": "46NT9D_homosapiens"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Plan": {
+                        "hasIdentifier": "46NT9D_tensiletestplan",
+                        "label": "46NT9D_tensiletestplan"
+                    }
+                }
+            ],
+            "has process attribute": [
+                {
+                    "Strain Rate": {
+                        "hasIdentifier": "46NT9D_strainrate",
+                        "label": "46NT9D_strainrate"
+                    }
+                },
+                {
+                    "Crosshead Separation Rate": {
+                        "hasIdentifier": "46NT9D_crossheadseparationrate",
+                        "label": "46NT9D_crossheadseparationrate"
+                    }
+                },
+                {
+                    "Transition Point": {
+                        "hasIdentifier": "46NT9D_transitionpoint",
+                        "label": "46NT9D_transitionpoint"
+                    }
+                }
+            ],
+            "exists at": [
+                {
+                    "Temporal Region": {
+                        "hasIdentifier": "46NT9D_temporalregion",
+                        "label": "46NT9D_temporalregion"
+                    }
+                }
+            ],
+            "has specified output": [
+                {
+                    "Object": {
+                        "hasIdentifier": "46NT9D_ouput_object_1",
+                        "label": "46NT9D_ouput_object_1"
+                    }
+                },
+                {
+                    "Object": {
+                        "hasIdentifier": "46NT9D_ouput_object_2",
+                        "label": "46NT9D_ouput_object_2"
+                    }
+                },
+                {
+                    "Tensile Test Result": {
+                        "hasIdentifier": "46NT9D_tensiletestresult",
+                        "label": "46NT9D_tensiletestresult"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Plan": {
+            "hasIdentifier": "46NT9D_tensiletestplan",
+            "label": "46NT9D_tensiletestplan",
+            "concretizes": [
+                {
+                    "Tensile Test Method": {
+                        "hasIdentifier": "46NT9D_tensiletestmethod",
+                        "label": "46NT9D_tensiletestmethod",
+                        "denoted by": [
+                            {
+                                "Identifier": {
+                                    "hasIdentifier": "46NT9D_tensiletestmethod_standard",
+                                    "label": "46NT9D_tensiletestmethod_standard"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Temporal Region": {
+            "hasIdentifier": "46NT9D_temporalregion",
+            "label": "46NT9D_temporalregion",
+            "has first instant": [
+                {
+                    "Temporal Instant": {
+                        "hasIdentifier": "46NT9D_temporalinterval_start",
+                        "label": "46NT9D_temporalinterval_start",
+                        "inXSDDateTimeStamp": "2022-08-23T00:00:00+02:00^^xsd:dateTime"
+                    }
+                }
+            ],
+            "has last instant": [
+                {
+                    "Temporal Instant": {
+                        "hasIdentifier": "46NT9D_temporalinterval_end",
+                        "label": "46NT9D_temporalinterval_end",
+                        "inXSDDateTimeStamp": "2022-08-23T23:59:59+02:00^^xsd:dateTime"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Tensile Testpiece": {
+            "hasIdentifier": "46NT9D_tensiletestpiece",
+            "label": "46NT9D_tensiletestpiece",
+            "has role": [
+                {
+                    "Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiecerole",
+                        "label": "46NT9D_testpiecerole"
+                    }
+                }
+            ],
+            "derives from": [
+                {
+                    "Steel": {
+                        "hasIdentifier": "46NT9D_steel",
+                        "label": "46NT9D_steel",
+                        "complies with": [
+                            {
+                                "Material Specification": {
+                                    "hasIdentifier": "46NT9D_materialdescription",
+                                    "label": "46NT9D_materialdescription"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "complies with": [
+                {
+                    "Material Specification": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece_type",
+                        "label": "46NT9D_tensiletestpiece_type"
+                    }
+                },
+                {
+                    "Material Specification": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece_rollingdirection",
+                        "label": "46NT9D_tensiletestpiece_rollingdirection"
+                    }
+                },
+                {
+                    "Material Specification": {
+                        "hasIdentifier": "46NT9D_tensiletestpiece_shape",
+                        "label": "46NT9D_tensiletestpiece_shape"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Object": {
+            "hasIdentifier": "46NT9D_ouput_object_1",
+            "label": "46NT9D_ouput_object_1",
+            "has role": [
+                {
+                    "Broken Tested Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiece_1_aftertest_role",
+                        "label": "46NT9D_testpiece_1_aftertest_role"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Object": {
+            "hasIdentifier": "46NT9D_ouput_object_2",
+            "label": "46NT9D_ouput_object_2",
+            "has role": [
+                {
+                    "Broken Tested Test Piece Role": {
+                        "hasIdentifier": "46NT9D_testpiece_2_aftertest_role",
+                        "label": "46NT9D_testpiece_2_aftertest_role"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Tensile Testing Machine": {
+            "hasIdentifier": "46NT9D_tensiletestingmachine",
+            "label": "46NT9D_tensiletestingmachine",
+            "complies with": [
+                {
+                    "Device Specification": {
+                        "hasIdentifier": "46NT9D_tensiletestmachine_standard",
+                        "label": "46NT9D_tensiletestmachine_standard"
+                    }
+                },
+                {
+                    "Device Specification": {
+                        "hasIdentifier": "46NT9D_tensiletestmachine_type",
+                        "label": "46NT9D_tensiletestmachine_type"
+                    }
+                }
+            ],
+            "is_manufactured_by": [
+                {
+                    "Manufacturer": {
+                        "hasIdentifier": "46NT9D_tensiletestmachine_manufacturer",
+                        "label": "46NT9D_tensiletestmachine_manufacturer"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Extensometer": {
+            "hasIdentifier": "46NT9D_extensometer",
+            "label": "46NT9D_extensometer",
+            "complies with": [
+                {
+                    "Device Specification": {
+                        "hasIdentifier": "46NT9D_extensometer_standard",
+                        "label": "46NT9D_extensometer_standard"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Caliper": {
+            "hasIdentifier": "46NT9D_caliper",
+            "label": "46NT9D_caliper",
+            "is_manufactured_by": [
+                {
+                    "Manufacturer": {
+                        "hasIdentifier": "46NT9D_calipermanufacturer",
+                        "label": "46NT9D_calipermanufacturer"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Micrometer Gauge": {
+            "hasIdentifier": "46NT9D_micrometergauge",
+            "label": "46NT9D_micrometergauge",
+            "is_manufactured_by": [
+                {
+                    "Manufacturer": {
+                        "hasIdentifier": "46NT9D_micrometergaugemanufacturer",
+                        "label": "46NT9D_micrometergaugemanufacturer"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Load Cell": {
+            "hasIdentifier": "46NT9D_loadcell",
+            "label": "46NT9D_loadcell"
+        }
+    },
+    {
+        "Organization": {
+            "hasIdentifier": "46NT9D_organization",
+            "label": "46NT9D_organization",
+            "located in": [
+                {
+                    "Site": {
+                        "hasIdentifier": "46NT9D_organization_site",
+                        "label": "46NT9D_organization_site"
+                    }
+                }
+            ]
+        }
+    }
+]

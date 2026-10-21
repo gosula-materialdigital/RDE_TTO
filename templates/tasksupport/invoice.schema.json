@@ -1,0 +1,136 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.org/rde/tensile-test-invoice-schema.json",
+    "title": "Tensile Test Input Schema",
+    "description": "Schema for data available before the tensile test process (specimen geometry and machine settings)",
+    "type": "object",
+    "required": [
+        "custom"
+    ],
+    "properties": {
+        "custom": {
+            "type": "object",
+            "label": {
+                "ja": "固有情報",
+                "en": "Custom Information"
+            },
+            "required": [
+                "specimen_id",
+                "material",
+                "test_date"
+            ],
+            "properties": {
+                "specimen_name": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片名",
+                        "en": "Specimen Name"
+                    },
+                    "description": "Human readable name of the specimen"
+                },
+                "specimen_id": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片ID",
+                        "en": "Specimen ID"
+                    }
+                },
+                "material": {
+                    "type": "string",
+                    "label": {
+                        "ja": "材料",
+                        "en": "Material"
+                    },
+                    "examples": ["42CrMoS4"]
+                },
+                "specimen_type": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験片形状",
+                        "en": "Specimen Type"
+                    },
+                    "enum": ["Round Tensile Specimen", "Flat Tensile Specimen", "Other"]
+                },
+                "gauge_diameter": {
+                    "type": "number",
+                    "label": {
+                        "ja": "平行部直径",
+                        "en": "Gauge Diameter"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "gauge_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "標点距離",
+                        "en": "Gauge Length"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "parallel_length": {
+                    "type": "number",
+                    "label": {
+                        "ja": "平行部長さ",
+                        "en": "Parallel Length"
+                    },
+                    "options": { "unit": "mm" }
+                },
+                "original_cross_section": {
+                    "type": "number",
+                    "label": {
+                        "ja": "初期断面積",
+                        "en": "Original Cross-section"
+                    },
+                    "options": { "unit": "mm²" }
+                },
+                "crosshead_speed": {
+                    "type": "number",
+                    "label": {
+                        "ja": "クロスヘッド速度",
+                        "en": "Crosshead Speed"
+                    },
+                    "options": { "unit": "mm/s" }
+                },
+                "test_temperature": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験温度",
+                        "en": "Test Temperature"
+                    },
+                    "default": "RT"
+                },
+                "machine_type": {
+                    "type": "string",
+                    "label": {
+                        "ja": "試験機型式",
+                        "en": "Machine Type"
+                    },
+                    "examples": ["INSTRON 8852TT"]
+                },
+                "standard": {
+                    "type": "string",
+                    "label": {
+                        "ja": "規格",
+                        "en": "Standard"
+                    },
+                    "default": "DIN EN ISO 6892-1"
+                },
+                "test_date": {
+                    "type": "string",
+                    "format": "date-time",
+                    "label": {
+                        "ja": "試験日",
+                        "en": "Test Date"
+                    }
+                },
+                "ht_batch": {
+                    "type": "string",
+                    "label": {
+                        "ja": "熱処理バッチ",
+                        "en": "Heat Treatment Batch"
+                    }
+                }
+            }
+        }
+    }
+}

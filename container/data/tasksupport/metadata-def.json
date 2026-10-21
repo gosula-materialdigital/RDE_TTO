@@ -1,0 +1,923 @@
+{
+    "original_diameter": {
+        "name": {
+            "en": "original_diameter"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Diameter",
+        "instance name": "originaldiameter",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "diameter of the tensile testpiece"
+    },
+
+    "process_id": {
+        "name": {
+            "en": "process_id"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "id of the tensile testing process"
+    },
+
+    "original_gauge_length": {
+        "name": {
+            "en": "original_gauge_length"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Gauge Length",
+        "instance name": "originalguagelength",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "length of the tensile testpiece"
+    },
+
+    "parallel_length": {
+        "name": {
+            "en": "parallel_length"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Parallel Length",
+        "instance name": "parallellength",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "parallel length of the tensile testpiece"
+    },
+
+    "original_cross_sectional_area_of_the_parallel_length": {
+        "name": {
+            "en": "original_cross_sectional_area_of_the_parallel_length"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Cross-Sectional Area Of The Parallel Length",
+        "instance name": "originalcross-sectionalareaoftheparallellength",
+        "unit": "unit:MilliM2",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original cross section area of the tensile testpiece"
+    },
+
+    "original_thickness_1": {
+        "name": {
+            "en": "original_thickness_1"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Thickness",
+        "instance name": "originalthickness_1",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original thickness of the tensile testpiece"
+    },
+
+    "original_thickness_2": {
+        "name": {
+            "en": "original_thickness_2"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Thickness",
+        "instance name": "originalthickness_2",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original thickness of the tensile testpiece"
+    },
+
+    "original_thickness_3": {
+        "name": {
+            "en": "original_thickness_3"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Thickness",
+        "instance name": "originalthickness_3",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original thickness of the tensile testpiece"
+    },
+
+    "original_width_1": {
+        "name": {
+            "en": "original_width_1"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Width",
+        "instance name": "originalwidth_1",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original width of the tensile testpiece"
+    },
+
+    "original_width_2": {
+        "name": {
+            "en": "original_width_2"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Width",
+        "instance name": "originalwidth_2",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original width of the tensile testpiece"
+    },
+
+    "original_width_3": {
+        "name": {
+            "en": "original_width_3"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Original Width",
+        "instance name": "originalwidth_3",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "original width of the tensile testpiece"
+    },
+
+    "cross_section_area_1": {
+        "name": {
+            "en": "cross_section_area_1"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Cross Section Area",
+        "instance name": "crosssectionarea_1",
+        "unit": "unit:MilliM2",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "cross section area of the tensile testpiece"
+    },
+
+    "cross_section_area_2": {
+        "name": {
+            "en": "cross_section_area_2"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Cross Section Area",
+        "instance name": "crosssectionarea_2",
+        "unit": "unit:MilliM2",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "cross section area of the tensile testpiece"
+    },
+
+    "cross_section_area_3": {
+        "name": {
+            "en": "cross_section_area_3"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Cross Section Area",
+        "instance name": "crosssectionarea_3",
+        "unit": "unit:MilliM2",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "cross section area of the tensile testpiece"
+    },
+
+    "extensometer_gauge_length": {
+        "name": {
+            "en": "extensometer_gauge_length"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Extensometer Gauge Length",
+        "instance name": "extensometergaugelength",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "extensometer guage length of the tensile testpiece"
+    },
+
+    "temperature": {
+        "name": {
+            "en": "temperature"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Temperature",
+        "instance name": "temperature",
+        "unit": "unit:DEG_C",
+        "sdc type": "quality of",
+        "independent continuant": "Object",
+        "process": "Dynamic Mechanical Analysis Process",
+        "description": "temperature of the atmosphere"
+    },
+
+    "minimum_cross_sectional_area_after_fracture": {
+        "name": {
+            "en": "minimum_cross_sectional_area_after_fracturee"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Minimum Cross-Sectional Area After Fracture",
+        "instance name": "minimumcross-sectionalareaafterfracture",
+        "unit": "unit:MilliM2",
+        "sdc type": "characteristic of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "cross section area after fracture of the tensile testpiece"
+    },
+
+    "proof_strength_plastic_extension_rp02": {
+        "name": {
+            "en": "proof_strength_plastic_extension_rp02"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Proof Strength Plastic Extension Rp02",
+        "instance name": "proofstrengthplasticextensionrp02",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "proof strength rp02 of the tensile testpiece"
+    },
+
+    "proof_strength_plastic_extension_rp1": {
+        "name": {
+            "en": "proof_strength_plastic_extension_rp1"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "proof strength plastic extension",
+        "instance name": "proofstrengthplasticextensionrp1",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "proof strength rp1 of the tensile testpiece"
+    },
+
+    "tensile_strength": {
+        "name": {
+            "en": "tensile_strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Tensile Strength",
+        "instance name": "tensilestrength",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "ultimate tensile strength of the tensile testpiece"
+    },
+
+    "percentage_elongation": {
+        "name": {
+            "en": "percentage_elongation"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Percentage Elongation",
+        "instance name": "percentageelongation",
+        "unit": "unit:PERCENT",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "percentage elongation of the tensile testpiece"
+    },
+
+    "percentage_elongation_after_fracture": {
+        "name": {
+            "en": "percentage_elongation_after_fracture"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Percentage Elongation After Fracture",
+        "instance name": "percentageelongationafterfracture",
+        "unit": "unit:PERCENT",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "percentage elongation after fracture of the tensile testpiece"
+    },
+
+    "percentage_reduction_of_area": {
+        "name": {
+            "en": "percentage_reduction_of_area"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Percentage Reduction Of Area",
+        "instance name": "percentagereductionofarea",
+        "unit": "unit:PERCENT",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "percentage reduction of area of the tensile testpiece"
+    },
+
+    "elastic_modulus": {
+        "name": {
+            "en": "elastic_modulus"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Slope Of The Elastic Part",
+        "instance name": "slopeoftheelasticpart",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "slope of the elastic part"
+    },
+
+    "thickness_after_fracture": {
+        "name": {
+            "en": "thickness_after_fracture"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Thickness After Fracture",
+        "instance name": "thicknessafterfracture",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "thickness after fracture of the tensile testpiece"
+    },
+
+    "width_after_fracture": {
+        "name": {
+            "en": "width_after_fracture"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Width After Fracture",
+        "instance name": "widthafterfracture",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "width after fracture of the tensile testpiece"
+    },
+
+    "final_gauge_length_after_fracture": {
+        "name": {
+            "en": "final_gauge_length_after_fracture"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Final Gauge Length After Fracture",
+        "instance name": "finalgaugelengthafterfracture",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "final gauge length after fracture of the tensile testpiece"
+    },
+
+    "diameter_after_fracture_1": {
+        "name": {
+            "en": "diameter_after_fracture_1"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Diameter After Fracture",
+        "instance name": "diameterafterfracture_1",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "diameter after fracture of the tensile testpiece"
+    },
+
+    "diameter_after_fracture_2": {
+        "name": {
+            "en": "diameter_after_fracture_2"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Diameter After Fracture",
+        "instance name": "diameterafterfracture_2",
+        "unit": "unit:MilliM",
+        "sdc type": "quality of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Dimension Measuring Process",
+        "description": "final gauge length after fracture of the tensile testpiece"
+    },
+    "maximum_force": {
+        "name": {
+            "en": "maximum_force"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Maximum Force",
+        "instance name": "maximumforce",
+        "unit": "unit:kiloN",
+        "sdc type": "characteristic of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "maximum force of the tensile testpiece"
+    },
+
+    "upper_yield_strength": {
+        "name": {
+            "en": "upper_yield_strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Upper Yield Strength",
+        "instance name": "upperyieldstrength",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "upper yield strength of the tensile testpiece"
+    },
+
+    "lower_yield_strength": {
+        "name": {
+            "en": "lower_yield_strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Lower Yield Strength",
+        "instance name": "loweryieldstrength",
+        "unit": "unit:MegaPa",
+        "sdc type": "disposition of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "lower yield strength of the tensile testpiece"
+    },
+
+    "force_at_lower_yield_strength": {
+        "name": {
+            "en": "force_at_lower_yield_strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Force At Lower Yield Strength",
+        "instance name": "forceatloweryieldstrength",
+        "unit": "unit:KiloN",
+        "sdc type": "characteristic of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "force at lower yield strength"
+    },
+
+    "force_at_upper_yield_strength": {
+        "name": {
+            "en": "force_at_upper_yield_strength"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Force At Upper Yield Strength",
+        "instance name": "forceatupperyieldstrength",
+        "unit": "unit:KiloN",
+        "sdc type": "characteristic of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "force at upper yield strength"
+    },
+
+    "force_at_proof_strength_plastic_extension_f02": {
+        "name": {
+            "en": "force_at_proof_strength_plastic_extension_f02"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Force At Proof Strength Plastic Extension F02'",
+        "instance name": "forceatproofstrengthplasticextension_f02",
+        "unit": "unit:KiloN",
+        "sdc type": "characteristic of",
+        "independent continuant": "Tensile Testpiece",
+        "process": "Tensile Testing Process",
+        "description": "force at proof strength plastic extension f02"
+    },
+
+    "crosshead_separation_rate": {
+        "name": {
+            "en": "crosshead_separation_rate"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Crosshead Separation Rate",
+        "instance name": "crossheadseparationrate",
+        "unit": "unit:MilliM-PER-SEC",
+        "description": "Crosshead seperation rate of the process"
+    },
+
+    "strain_rate": {
+        "name": {
+            "en": "Strain_rate"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Strain Rate",
+        "instance name": "strainrate",
+        "unit": "unit:PER-SEC",
+        "description": "strain rate of the process"
+    },
+
+    "transition_point": {
+        "name": {
+            "en": "transition_point"
+        },
+        "schema": {
+            "type": "number"
+        },
+        "class name": "Transition Point",
+        "instance name": "transitionpoint",
+        "unit": "unit:PERCENT",
+        "description": "transition point of the process"
+    },
+
+    "tensiletestpiece_name": {
+        "name": {
+            "en": "tensiletestpiece_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "tensiletestpiece_name",
+        "denotes": "Tensile Testpiece",
+        "denotes instance name": "tensiletestpiece",
+        "description": "name assigned to the specimen"
+    },
+
+
+    "tensiletestpiece_id": {
+        "name": {
+            "en": "tensiletestpiece_id"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "tensiletestpiece_id",
+        "denotes": "Tensile Testpiece",
+        "denotes instance name": "tensiletestpiece",
+        "description": "id assigned to the specimen"
+    },
+
+    "materialdescription": {
+        "name": {
+            "en": "materialdescription"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Material Specification",
+        "instance name": "materialdescription",
+        "description": "description of the material(steel)"
+    },
+
+    "tensiletestpiece_type": {
+        "name": {
+            "en": "tensiletestpiece_type"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Material Specification",
+        "instance name": "tensiletestpiece_type",
+        "description": "type of the tensile testpiece"
+    },
+
+    "tensiletestmachine_type": {
+        "name": {
+            "en": "tensiletestmachine_type"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Device Specification",
+        "instance name": "tensiletestmachine_type",
+        "description": "type of the tensile testmachine"
+    },
+
+    "tensiletestmethod_standard": {
+        "name": {
+            "en": "tensiletestmethod_standard"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "tensiletestmethod_standard",
+        "denotes": "Tensile Test Method",
+        "denotes instance name": "tensiletestmethod",
+        "description": "standard of the tensile test method"
+    },
+
+    "operator": {
+        "name": {
+            "en": "operator"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "operator",
+        "denotes": "Homo Sapiens",
+        "denotes instance name": "homosapiens",
+        "description": "operator of the tensile test process"
+    },
+
+    "institute": {
+        "name": {
+            "en": "institute"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "institute",
+        "denotes": "Organization",
+        "denotes instance name": "organization",
+        "description": "organization name that conducts tensile test process"
+    },
+
+    "tensiletestmachine_name": {
+        "name": {
+            "en": "tensiletestmachine_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "tensiletestmachine_name",
+        "denotes": "Tensile Testing Machine",
+        "denotes instance name": "tensiletestingmachine",
+        "description": "tensile testing name"
+    },
+
+    "tensiletestmachine_serialnumber": {
+        "name": {
+            "en": "tensiletestmachine_serialnumber"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Symbol",
+        "instance name": "tensiletestmachine_serialnumber",
+        "denotes": "Tensile Testing Machine",
+        "denotes instance name": "tensiletestingmachine",
+        "description": "tensile testing machine serial number"
+    },
+
+
+    "extensometer_name": {
+        "name": {
+            "en": "extensometer_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "extensometer_name",
+        "denotes": "Extensometer",
+        "denotes instance name": "extensometer",
+        "description": "name of the extensometer"
+    },
+
+    "tensiletestmachine_manufacturer_name": {
+        "name": {
+            "en": "tensiletestmachine_manufacturer_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "tensiletestmachine_manufacturer_name",
+        "denotes": "Manufacturer",
+        "denotes instance name": "tensiletestmachine_manufacturer",
+        "description": "name of the manufacturer of the tensile testmachine"
+    },
+
+    "caliper_manufacturer_name": {
+        "name": {
+            "en": "caliper_manufacturer_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "caliper_manufacturer_name",
+        "denotes": "Manufacturer",
+        "denotes instance name": "caliper_manufacturer",
+        "description": "name of the manufacturer of the caliper"
+    },
+
+    "micrometergauge_manufacturer_name": {
+        "name": {
+            "en": "micrometergauge_manufacturer_name"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "micrometergauge_manufacturer_name",
+        "denotes": "Manufacturer",
+        "denotes instance name": "micrometergauge_manufacturer",
+        "description": "name of the manufacturer of the micrometergauge"
+    },
+
+    "address": {
+        "name": {
+            "en": "address"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "address",
+        "denotes": "Site",
+        "denotes instance name": "organization_site",
+        "description": "organization location"
+    },
+
+
+    "extensometer_serialnumber": {
+        "name": {
+            "en": "extensometer_serialnumber"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Symbol",
+        "instance name": "extensometer_serialnumber",
+        "denotes": "Extensometer",
+        "denotes instance name": "extensometer",
+        "description": "extensometer serial number"
+    },
+
+    "caliper_serialnumber": {
+        "name": {
+            "en": "caliper_serialnumber"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Symbol",
+        "instance name": "caliper_serialnumber",
+        "denotes": "Caliper",
+        "denotes instance name": "caliper",
+        "description": "caliper serial number"
+    },
+
+    "project": {
+        "name": {
+            "en": "project"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Identifier",
+        "instance name": "project_name",
+        "denotes": "Process",
+        "denotes instance name": "process",
+        "description": "name of the project which has part tensile testing process"
+    },
+
+    "extensometer_standard": {
+        "name": {
+            "en": "extensometer_standard"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Device Specification",
+        "instance name": "extensometer_standard",
+        "description": "extensometer standard"
+    },
+
+    "tensiletestmachine_standard": {
+        "name": {
+            "en": "tensiletestmachine_standard"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Device Specification",
+        "instance name": "tensiletestmachine_standard",
+        "description": "standard of the tensile test machine"
+    },
+
+    "tensiletestpiece_rollingdirection": {
+        "name": {
+            "en": "tensiletestpiece_rollingdirection"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Material Specification",
+        "instance name": "tensiletestpiece_rollingdirection",
+        "description": "rolling direction of the tensile test piece"
+    },
+
+    "tensiletestpiece_shape": {
+        "name": {
+            "en": "tensiletestpiece_shape"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "class name": "Material Specification",
+        "instance name": "tensiletestpiece_shape",
+        "description": "shape of the tensile test piece"
+    },
+
+
+    "note": {
+        "name": {
+            "en": "note"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "description of the process"
+    },
+    "date": {
+        "name": {
+            "en": "Date"
+        },
+        "schema": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "description": "Timestamp of the experiment"
+    },
+
+    "heat_treatment_batch": {
+        "name": {
+            "en": "Heat Treatment Batch"
+        },
+        "schema": {
+            "type": "string"
+        },
+        "description": "Reference for the material's heat treatment lot"
+    }
+
+
+}

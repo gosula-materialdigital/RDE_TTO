@@ -1,0 +1,89 @@
+{
+    "constant": {
+        "original_diameter": {
+            "value": 5.001,
+            "unit": "unit:MilliM"
+        },
+        "process_id": {
+            "value": "46NT9D"
+        },
+        "original_gauge_length": {
+            "value": 25,
+            "unit": "unit:MilliM"
+        },
+        "parallel_length": {
+            "value": 30,
+            "unit": "unit:MilliM"
+        },
+        "original_cross_sectional_area_of_the_parallel_length": {
+            "value": 19.642808851968347,
+            "unit": "unit:MilliM2"
+        },
+        "temperature": {
+            "value": 23,
+            "unit": "unit:DEG_C"
+        },
+        "minimum_cross_sectional_area_after_fracture": {
+            "value": 9.275184939732934,
+            "unit": "unit:MilliM2"
+        },
+        "proof_strength_plastic_extension_rp02": {
+            "value": 1090.0613982135765,
+            "unit": "unit:MegaPa"
+        },
+        "proof_strength_plastic_extension_rp1": {
+            "value": 1122.0946918175598,
+            "unit": "unit:MegaPa"
+        },
+        "tensile_strength": {
+            "value": 1175.3665259378865,
+            "unit": "unit:MegaPa"
+        },
+        "percentage_elongation": {
+            "value": 5.043896798368011,
+            "unit": "unit:PERCENT"
+        },
+        "percentage_elongation_after_fracture": {
+            "value": 14.491399342237472,
+            "unit": "unit:PERCENT"
+        },
+        "percentage_reduction_of_area": {
+            "value": 52.78076058454577,
+            "unit": "unit:PERCENT"
+        },
+        "elastic_modulus": {
+            "value": 207076.24253279125,
+            "unit": "unit:MegaPa"
+        },
+        "crosshead_separation_rate": {
+            "value": 0.03007181246249116,
+            "unit": "unit:MilliM-PER-SEC"
+        },
+        "strain_rate": {
+            "value": 0.001002393748749053,
+            "unit": "unit:PER-SEC"
+        },
+        "tensiletestpiece_name": {
+            "value": "AWA_2_03_Rz"
+        },
+        "tensiletestpiece_id": {
+            "value": "46NT9D"
+        },
+        "materialdescription": {
+            "value": "42CrMoS4"
+        },
+        "tensiletestpiece_type": {
+            "value": "Round tensile Specimen"
+        },
+        "tensiletestmachine_type": {
+            "value": "INSTRON 8852TT"
+        },
+        "tensiletestmethod_standard": {
+            "value": "DIN EN ISO 6892-1"
+        },
+        "date": {
+            "value": "2022-08-23T00:00:00"
+        }
+    },
+    "variable": []
+}
